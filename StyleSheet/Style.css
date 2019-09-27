@@ -1,0 +1,252 @@
+@font-face{
+	font-family:gillfont;
+	src:url(Fonts/GillSansUltraBold.ttf);
+}
+
+
+.jojologo{
+	position: absolute;
+	top: 150px;
+	left: 570px;
+	width: auto;
+	height: 162px;
+}
+.bannerlong{
+    flex-direction:row;
+    width:auto;
+    height:auto;
+}
+
+.banner1 {
+    position: relative;
+    top: 5px;
+    left: 650px;
+	justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.banner2 {
+	position: absolute;
+	top: -10px;
+	left: 701px;
+	width: auto;
+	height: auto;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	justify-content: center;
+	justify-content: space-evenly;
+	width: auto;
+	height:auto;
+	position:relative;
+	
+	
+}
+.navimg{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	transform:all 0.2s ease-in-out;
+	
+	
+}
+.navimg:hover{
+	transform: scale(1.05);
+}
+
+
+
+.text{
+	flex-direction: column;
+	flex-wrap: wrap;
+	float: left;
+	width:auto;
+	height: auto;
+	font-size: 160%;
+	background-color: Tomato;
+	left:-20px;
+}
+
+.textStory {
+    font-size: 130%;
+	float: left;
+    background-color: lightgray;
+	text-indent: 2.0em;
+    max-width: 1920px;
+    width: auto;
+    height: auto;
+}
+.textStoryc {
+    font-size: 130%;
+	float: right;
+    /*background-color: LightPink;*/
+	padding-left: 20px;
+	text-indent: 2.0em;
+    max-width: 1920px;
+    width: auto;
+	height: auto;}
+
+.split{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	
+}
+
+
+.title{
+	flex-direction: column;
+	margin: auto;
+	
+	width:15%;
+    height:auto;
+	
+	font-size:130%;
+	font-family:gillfont;
+	background-color:Tomato;
+	text-align:center;
+	
+
+}
+.title2{
+	flex-direction: column;
+	margin: auto;
+	
+	width:40%;
+    height:auto;
+	
+	font-size:130%;
+	font-family:gillfont;
+	background-color:Tomato;
+	text-align:center;
+	
+
+}
+
+.titleMusic{
+	flex-direction: row;
+	
+	width:25%;
+	height:auto;
+	font-size:130%;
+	font-family:gillfont;
+	background-color:Tomato;
+	text-align: center;
+	position: relative;
+	left: 680px;
+	
+
+}
+
+body {
+    max-width: initial;
+	background: url("assets/Pictures/bg1.JPG");
+	background-size:1920px;
+    background-repeat: repeat-x;
+    background-repeat:repeat-y;
+    width: 1920px;
+    height: auto;
+}
+p{
+	background-color: lightgray;
+	padding: 10px;
+	margin-bottom:50px;
+}
+ul {
+    background-color: lightgray;
+    padding: 10px;
+	margin-bottom:50px;
+    
+}
+
+ul li::before {
+  content: "\2022";
+  color: Tomato;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+ol{
+	background-color: lightgray;
+    padding: 10px;
+	margin-bottom:50px;
+}
+ol li:before {
+  counter-increment: myOrderedListItemsCounter;
+  content: counter(myOrderedListItemsCounter)".";
+  margin-right: 0.5em;
+  color:black;
+}
+
+.characters1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	width: auto;
+	height:auto;
+}
+
+
+.characters1img{
+	display: flex;
+	flex-direction: row;
+	flex:1 1 auto;
+	transform:all 0.2s ease-in-out;
+	
+}
+.characters1img:hover{
+	transform: scale(1.05);
+}
+
+
+
+
+.characters2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	width: auto;
+	height:auto;
+
+}
+
+
+.fight{
+	position: relative;
+	left: 400px;
+    margin: auto;
+    margin-right: 900px;
+    
+	font-size: 130%;
+	}
+
+	.fights{
+	position: relative;
+	left: 400px;
+    margin: auto;
+    margin-right: 900px;
+    text-indent: 2.0em;
+	font-size: 130%;
+			}
+
+
+.Video{
+	position: center;
+	left: 400px;
+    margin: auto;
+	margin-left:-100px;
+	text-align:center;
+}
+
+
+.music{
+	position: relative;
+	left: 620px;
+}
